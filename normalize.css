@@ -1,0 +1,15 @@
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  width: 100%;
+  margin: 0;
+  padding-top: 1px;
+  overflow: hidden;
+}
+

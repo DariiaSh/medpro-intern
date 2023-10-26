@@ -1,0 +1,120 @@
+
+h2{
+    color: white;
+    position: absolute;
+    top: 5px;;
+    left: 700px;
+}
+
+input{
+    display: inline-block;
+    text-align: left;
+    border: 3px solid black; 
+    padding: 3px 170px;
+    padding-left: 10px;
+    
+}
+
+label{
+    color: white;
+    font-size: medium;
+}
+
+::placeholder {
+    color: black;
+    font-family: 'Balsamiq Sans';
+    font-size: medium;
+    position: absolute;
+    left: 10px;
+}
+
+.inf{
+    display: block;
+    position:absolute;
+    top: 160px;
+    left: 170px;
+ 
+}
+
+.continfo{
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    margin-left: 53%;
+    
+}
+
+.reginfo{
+    display: block;
+    position: absolute;
+    top: 320px;
+    left: 170px;
+}
+
+
+  select.role {
+
+    display: inline-block;
+    font-family:'Balsamiq Sans';
+    font-size: medium;
+    text-align: left;
+    border: 3px solid black; 
+    padding: 2px 100px;
+}
+
+input#actdate {
+    display: inline-block;
+    font-family:'Balsamiq Sans';
+    font-size: medium;
+    text-align: left;
+    border: 3px solid black; 
+    padding: 2px 5px;
+
+}
+
+/* .white{
+    margin-top: 23%;
+    width: 140em;
+    height: 200px;
+    background-color: white;
+} */
+
+.button{
+    background-color: rgb(127, 127, 127);
+    font-family:'Balsamiq Sans';
+    font-size: medium;
+    cursor: default;
+    padding: 3px 115px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    margin-top: 22%;
+    box-shadow: 2px 4px;
+    
+}
+
+.button:active {
+    background-color: hsl(0, 0%, 70%);
+    transform: translateY(2px);
+}
+    
+
+
+footer{
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(236, 236, 236);
+}
+
+p#footer{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-size: medium;
+
+
+}
+
+    

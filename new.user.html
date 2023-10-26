@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+
+    <!-- Start Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <!-- Start Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/new.user.css">
+
+	<!-- Start Global CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+    
+    <nav>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+        
+    </nav>
+
+   <title>Registration</title>
+   <meta>
+ </head>
+
+   <body>
+    
+   <header>
+        
+    <h1 class="logo"><span class="material-symbols-outlined">
+        sentiment_satisfied
+        </span> Medical Center</h1>
+
+    <h2>Create new account</h2>
+
+   </header>
+
+   <hr style=" margin-left: 30px; border: 1px solid rgb(203, 198, 198);">
+
+    <section class="container">
+    
+    
+    <form class="inf">
+
+        <input type="text" id="name" placeholder="Name">
+        <br>
+        <br>
+        <input type="text" id="surname" placeholder="Surname">
+        <br>
+        <br>
+        <input type="text" id="date of birth" placeholder="Date of birth">
+        <!-- <input type="date" id="date of birth"> -->
+
+    </form>
+    
+   
+    
+    <form class="continfo">
+
+        <label for="Phone" class="first">Contact Info</label>
+        <br>
+        <br>
+        <input type="tel" id="Phone" placeholder="Phone">
+        <br>
+        <br>
+        <input type="email" id="email" placeholder="Email adress">
+
+    </form>
+    
+    <br>
+    
+    <form class="reginfo">
+
+        <label>Registration Information</label>
+        <br>
+        <br>
+        <select class="role">
+            <option value="1" disabled selected hidden>Role</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Patient">Patient</option>
+            <option value="Admin">Admin</option>
+        </select>
+        <br>
+        <br>
+        <input id="actdate" type="text" id="activationdate" placeholder="Activation date">
+        <input id="actdate" type="date" name="activation date">
+    
+    </form>
+        
+
+        <!--Login and Passwort will be by backend generated-->
+        
+    
+    
+    <center><button class="button">Create user</button></center>
+
+</section>
+    
+     
+
+    <!-- <div class="white"></div> -->
+
+    
+    <footer>
+        
+        <p id="footer">Site only for education goals and doesn't represent any real clinic</p>
+    
+    </footer>
+    
+    
+   </body>
+
+</html>
